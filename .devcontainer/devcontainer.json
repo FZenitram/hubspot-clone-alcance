@@ -1,0 +1,10 @@
+{
+  "name": "HubSpot Cloner",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+  "forwardPorts": [],
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+  "remoteUser": "vscode"
+}
