@@ -1,1 +1,3 @@
 hubspot-api-client
+# Agrega esta línea
+python-dotenv
